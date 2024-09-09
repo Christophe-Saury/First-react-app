@@ -4,7 +4,9 @@ import ListGroup from "./components/ListGroup";
 function App() {
   return (
     <div>
-      <Alert>Hello World</Alert>
+      <Alert>
+        Hello <span>World</span>
+      </Alert>
     </div>
   );
 }

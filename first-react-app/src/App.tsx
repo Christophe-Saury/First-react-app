@@ -5,7 +5,7 @@ import ListGroup from "./components/ListGroup";
 function App() {
   return (
     <div>
-      <Button>My button</Button>
+      <Button onClick={() => console.log("CLicked")}>My button</Button>
     </div>
   );
 }

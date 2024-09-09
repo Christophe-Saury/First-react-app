@@ -4,7 +4,7 @@ import ListGroup from "./components/ListGroup";
 function App() {
   return (
     <div>
-      <Alert />
+      <Alert text="Hello World" />
     </div>
   );
 }

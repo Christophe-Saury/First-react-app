@@ -8,7 +8,9 @@ function App() {
 
   return (
     <div>
-      {alertVisible && <Alert> My Alert </Alert>}
+      {alertVisible && (
+        <Alert onClose={() => setAlertVisibility(false)}> My Alert </Alert>
+      )}
       <Button color="primary" onClick={() => setAlertVisibility(true)}>
         My button
       </Button>
